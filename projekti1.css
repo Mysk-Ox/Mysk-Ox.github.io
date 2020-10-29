@@ -1,0 +1,68 @@
+html, body {
+    width: 50%;
+    margin: 0 auto;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background-color: rgb(109, 181, 184);
+    background-image: url(the-background.jpg);
+   
+
+     background-size: 2000px;
+    background-attachment: fixed;
+
+} 
+
+#varasto {
+    width: 400px;
+   
+}
+
+#inputkenttä {
+    width: 250px;
+    height: 25px;
+    border: 1px solid black;
+    outline: none;
+    font-size: 20px;    
+}
+
+#värikenttä1 {
+    position: absolute;
+    left: 50px;
+    background-color: green;
+    color: white;
+    top: 60px;
+}
+
+#värikenttä2 {
+    position: absolute;
+    left: 50px;
+    background-color: blue;
+    color: white;
+    top: 80px;
+}
+#värikenttä3 {
+    position: absolute;
+    left: 50px;
+    background-color: magenta;
+    color: white;
+    top: 100px;
+}
+
+#otsikko2 {
+position: absolute;
+left: 50px;
+font-size: 20px;
+top: 20px;
+}
+
+
+p.paragraph-styling {
+    cursor: pointer;
+    font-size: 25px;
+}
+
+button.nappistyle{
+    cursor: pointer;
+    size: 20px;
+    border: 2px solid black;
+    position: relative;
+}
